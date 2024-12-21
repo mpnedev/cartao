@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificar Integridade do Cartão</title>
+</head>
+<body>
+    <div class="form-container">
+        <form action="">
+            <div class="form-header">
+                <img src="IMG/icone.png" alt="Verificado">
+                <h1>Verificar Integridade do Cartão</h1>
+            </div>
+            <div class="form-body">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required>
+
+                <label for="cartao">Número do Cartão:</label>
+                <input type="text" name="cartao" id="cartao" placeholder="Digite o número do cartão" required>
+
+                <label for="senha">Senha do Cartão:</label>
+                <input type="password" name="senha" id="senha" placeholder="Digite a senha" required>
+
+                <label for="cod">Código de Segurança:</label>
+                <input type="text" name="cod" id="cod" placeholder="Digite o código de segurança" required>
+
+                <label for="vencimento">Vencimento do Cartão:</label>
+                <input type="month" name="vencimento" id="vencimento" required>
+
+                <button type="submit">Verificar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
